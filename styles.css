@@ -1,3 +1,6 @@
+@media screen font-family: 'Nunito Sans', sans-serif font-family: 'Open Sans', sans-serif;
+
+
 body{
     margin: 0;
     padding: 0;
@@ -15,12 +18,13 @@ nav {
 }
 
 button.inicio {
-font-family: OpenSans;
+font-family: 'Open Sans';
 background-color: rgb(235, 235, 236)
 text-align: right;
 border: none;
-font-size: 20px;
-margin-left: 1000px;
+font-size: 13px;
+margin-left: auto;
+padding-right: 40px;
 }
 
 section {
@@ -28,12 +32,54 @@ background-color: rgb(235, 235, 236);
 text-align: center;
 }
 
-section1 {
-    background-color: white;  
+h1 {
+    font-family: 'Open Sans', 'Sans-serif', light;
+    font-size: 25px;  
 }
-
+div.step-election {
+    display: inline-flex;
+    height: 32px;
+    width: 350px;
+    justify-content:space-around ;
+    position: relative;
+    border: 1px solid grey;
+}
+div.pasos {
+  font-family: 'Open Sans', 'Sans Serif';
+  font-size: 10px; 
+  margin-top: 5px;
+}
+div.start {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', 'Sans Serif'
+    font-size: 10px;    
+}
+button.startpurif {
+    background-color: black;
+    font-family: 'Open Sans', 'Sans Serif';
+    font-color: white;
+    font-size: 11px;
+    text-align: center;
+    width: 150px;
+    
+}
+section1 {
+    display: flex;
+    background-color: white; 
+    justify-content: center; 
+}
 img {
-    height: 60%;
-    width: 60%;
-    margin-left: 30%;
+    height: 48%;
+    width: 48%;
+    
+}
+section2 {
+    display: flex;
+    background-color: rgb(222, 190, 109); 
+    justify-content: center; 
+}
+.img100fresc {
+    height: 26%;
+    width: 26%;
 }

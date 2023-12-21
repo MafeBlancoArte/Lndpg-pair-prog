@@ -103,6 +103,14 @@ p {
     margin: left 15%; 
 
 }
+button.startpurif2 {
+    background-color: black;
+    font-family: 'Open Sans', 'Sans Serif';
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    width: 150px;
+} 
 div.img100fresc {
    display: inline-flex;
    
